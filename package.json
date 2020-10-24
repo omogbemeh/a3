@@ -1,0 +1,23 @@
+{
+    "name": "afrilearn3",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server",
+        "client": " npm start --prefix client",
+        "dev": "concurrently \"npm run start\" \"npm run client\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "concurrently": "^5.3.0",
+        "config": "^3.3.2",
+        "express": "^4.17.1",
+        "express-validator": "^6.6.1",
+        "mongoose": "^5.10.10",
+        "react-router-dom": "^5.2.0"
+    }
+}

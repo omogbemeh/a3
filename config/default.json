@@ -1,0 +1,3 @@
+{
+    "mongouri": "mongodb+srv://afrilearn:afrilearn@cluster0.3mjrc.mongodb.net/afrilearn?retryWrites=true&w=majority"
+}
